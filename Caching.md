@@ -1,9 +1,9 @@
-#Caching
-##What is caching?
+# Caching
+## What is caching?
 Caching is an approach to retrieve data that is being accessed frequently. It is used everywhere from your Household to the software industry. Just as we keep frequently used items like keys, remotes, or a book you’re currently reading within easy reach in our homes, caching stores frequently accessed data in a nearby storage location in your device. The main goal in both scenarios is to save time to make our everyday lives easier.
 Cache in computing can be either hardware or software so that when it's accessed in the future, it can be retrieved faster. Since the cache is only a fraction of the main memory, it cannot store all the data. What gets stored depends on the caching algorithms that have been implemented.
 
-##Caching- Algorithms
+## Caching- Algorithms
 Least Recently Used (LRU) - It deletes the least recently used data items first.
 Most Recently Used (MRU) - It deleted the most recently used data items first.
 Pseudo-LRU - It deletes one of the least recently used data items.
@@ -11,7 +11,7 @@ Least Frequently Used(LFU) - It counts how frequently the data items are used an
 First in First Out (FIFO)– Data items are added to a queue and deleted in the same order.
 Random Replacement – It randomly selects a data item when the cache reaches maximum capacity and deletes it.
 
-##Types of caching
+## Types of caching
 There are various types of caching to improve the system’s performance.
 1. Client-side caching: Data is cached on the client device to avoid delay. But it's important to refresh it, to avoid seeing old data.
 Example: web page caching and In-app caching.
@@ -33,7 +33,7 @@ Example: When a user updates any profile information it will be written to the c
 10. Write-Back Caching:  Data is written to the cache first and written to the primary storage later. It improves performance as it reduces the number of writes to the database. Example: Logs are written to an in-memory cache immediately after they are generated. They are then written to the log storage system in batches.
 
 
-References: 
+## References: 
 * https://www.geeksforgeeks.org/cache-eviction-policies-system-design/
 * https://www.geeksforgeeks.org/what-is-the-caching-mechanism/
 * https://youtu.be/6FyXURRVmR0?si=JjYShRPaa7C7CtR_

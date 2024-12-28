@@ -4,12 +4,12 @@ Caching is an approach to retrieve data that is being accessed frequently. It is
 Cache in computing can be either hardware or software so that when it's accessed in the future, it can be retrieved faster. Since the cache is only a fraction of the main memory, it cannot store all the data. What gets stored depends on the caching algorithms that have been implemented.
 
 ## Caching- Algorithms
-Least Recently Used (LRU) - It deletes the least recently used data items first.
-Most Recently Used (MRU) - It deleted the most recently used data items first.
-Pseudo-LRU - It deletes one of the least recently used data items.
-Least Frequently Used(LFU) - It counts how frequently the data items are used and those that were used less often are deleted first.
-First in First Out (FIFO)– Data items are added to a queue and deleted in the same order.
-Random Replacement – It randomly selects a data item when the cache reaches maximum capacity and deletes it.
+1. Least Recently Used (LRU) - It deletes the least recently used data items first.
+2. Most Recently Used (MRU) - It deleted the most recently used data items first.
+3. Pseudo-LRU - It deletes one of the least recently used data items.
+4. Least Frequently Used(LFU) - It counts how frequently the data items are used and those that were used less often are deleted first.
+5. First in First Out (FIFO)– Data items are added to a queue and deleted in the same order.
+6. Random Replacement – It randomly selects a data item when the cache reaches maximum capacity and deletes it.
 
 ## Types of caching
 There are various types of caching to improve the system’s performance.
